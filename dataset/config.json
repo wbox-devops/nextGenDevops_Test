@@ -1,0 +1,1396 @@
+{
+  "objectsList": {
+    "account": {
+      "fields": [
+        {
+          "name": "Id",
+          "type": "id"
+        },
+        {
+          "name": "Credit_Balance__c",
+          "type": "currency"
+        },
+        {
+          "name": "SDO_MAPS_Days_Since_Last_Visit__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_MAPS_Visit_Frequency__c",
+          "type": "double"
+        },
+        {
+          "name": "pi__grade__pc",
+          "type": "string"
+        },
+        {
+          "name": "pi__url__pc",
+          "type": "url"
+        },
+        {
+          "name": "PersonHomePhone",
+          "type": "phone"
+        },
+        {
+          "name": "SDO_Number_Open_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SFS_Rider_ServiceTerritory__pc",
+          "type": "reference"
+        },
+        {
+          "name": "Partner_Certification__c",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__notes__pc",
+          "type": "textarea"
+        },
+        {
+          "name": "SDO_PA_Inclusive_Preferred_Name__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonOtherPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Service_Primary_Messaging_User__pc",
+          "type": "reference"
+        },
+        {
+          "name": "PersonMailingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "PersonMaritalStatus",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonOtherGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__Old_Name__c",
+          "type": "string"
+        },
+        {
+          "name": "ShippingState",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SFS_Work_Type__c",
+          "type": "reference"
+        },
+        {
+          "name": "AnnualRevenue",
+          "type": "currency"
+        },
+        {
+          "name": "Jigsaw",
+          "type": "string"
+        },
+        {
+          "name": "SDO_MAPS_Time_Per_Visit_c__c",
+          "type": "double"
+        },
+        {
+          "name": "Active__c",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_SPM_Hardware_Revenue__c",
+          "type": "double"
+        },
+        {
+          "name": "Website",
+          "type": "url"
+        },
+        {
+          "name": "SDO_Partner_Program_Level__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_PA_Year_of_Birth__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "BillingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "NumberOfEmployees",
+          "type": "integer"
+        },
+        {
+          "name": "SDO_CPQ_Churn_Risk__c",
+          "type": "boolean"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Role_Function__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonMobilePhone",
+          "type": "phone"
+        },
+        {
+          "name": "RecordTypeId",
+          "type": "reference"
+        },
+        {
+          "name": "ShippingCity",
+          "type": "string"
+        },
+        {
+          "name": "PersonMailingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonHasOptedOutOfEmail",
+          "type": "boolean"
+        },
+        {
+          "name": "analyticsdemo_batch_id__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__created_date__pc",
+          "type": "datetime"
+        },
+        {
+          "name": "ParentId",
+          "type": "reference"
+        },
+        {
+          "name": "FirstName",
+          "type": "string"
+        },
+        {
+          "name": "EndDate",
+          "type": "datetime"
+        },
+        {
+          "name": "PersonSequenceInMultipleBirth",
+          "type": "integer"
+        },
+        {
+          "name": "PersonDeceasedDate",
+          "type": "datetime"
+        },
+        {
+          "name": "PersonAssistantName",
+          "type": "string"
+        },
+        {
+          "name": "BillingCity",
+          "type": "string"
+        },
+        {
+          "name": "pi__conversion_object_name__pc",
+          "type": "string"
+        },
+        {
+          "name": "External_ID__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Approver__pc",
+          "type": "reference"
+        },
+        {
+          "name": "Sdo_Scom_Default_Store__c",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_Analytics_Latest_Sentiment__c",
+          "type": "picklist"
+        },
+        {
+          "name": "Quip_URL__c",
+          "type": "url"
+        },
+        {
+          "name": "External_ID__pc",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "PersonTitle",
+          "type": "string"
+        },
+        {
+          "name": "Industry",
+          "type": "picklist"
+        },
+        {
+          "name": "OperatingHoursId",
+          "type": "reference"
+        },
+        {
+          "name": "Number_Leads_Active__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_Certification_Level_c__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "TickerSymbol",
+          "type": "string"
+        },
+        {
+          "name": "PersonMailingCity",
+          "type": "string"
+        },
+        {
+          "name": "PersonMailingCountry",
+          "type": "string"
+        },
+        {
+          "name": "SDO_MAPS_Segment_c__c",
+          "type": "string"
+        },
+        {
+          "name": "Partner_Program_Level__c",
+          "type": "picklist"
+        },
+        {
+          "name": "et4ae5__Mobile_Country_Code__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Service_Month_of_Birth__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Partner_Certification__c",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonBirthdate",
+          "type": "date"
+        },
+        {
+          "name": "Sic",
+          "type": "string"
+        },
+        {
+          "name": "CurrencyIsoCode",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SPM_Software_Revenue__c",
+          "type": "double"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__DB__c",
+          "type": "boolean"
+        },
+        {
+          "name": "PersonEmailBouncedReason",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Cust360_ChurnRisk__pc",
+          "type": "double"
+        },
+        {
+          "name": "ShippingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "pi__Pardot_Last_Scored_At__pc",
+          "type": "datetime"
+        },
+        {
+          "name": "pi__first_touch_url__pc",
+          "type": "textarea"
+        },
+        {
+          "name": "CreatedDate__c",
+          "type": "datetime"
+        },
+        {
+          "name": "SDO_Default_Price_Book__c",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_SFS_Service_Territory__c",
+          "type": "reference"
+        },
+        {
+          "name": "LastName",
+          "type": "string"
+        },
+        {
+          "name": "BillingState",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SFS_Rider_BotContext__pc",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_Maps_Territory__c",
+          "type": "string"
+        },
+        {
+          "name": "Rating",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Sales_Number_Closed_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_Sales_Region__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_PA_Preferred_Contact_Channel__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Application_Date__c",
+          "type": "date"
+        },
+        {
+          "name": "PersonDepartment",
+          "type": "string"
+        },
+        {
+          "name": "maps__AssignmentRule__c",
+          "type": "reference"
+        },
+        {
+          "name": "ShippingCountry",
+          "type": "string"
+        },
+        {
+          "name": "PersonGenderIdentity",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__comments__pc",
+          "type": "textarea"
+        },
+        {
+          "name": "SourceSystemModifiedDate",
+          "type": "datetime"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__DB__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "pi__first_search_term__pc",
+          "type": "string"
+        },
+        {
+          "name": "Number_Closed_Won_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SFS_Rider_Enabled__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Cust360_Metric1__pc",
+          "type": "string"
+        },
+        {
+          "name": "pi__first_search_type__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonOtherState",
+          "type": "string"
+        },
+        {
+          "name": "AccountNumber",
+          "type": "string"
+        },
+        {
+          "name": "Number_Leads_Converted__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Budget_Limit__pc",
+          "type": "currency"
+        },
+        {
+          "name": "BillingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__Old_Title__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonOtherCity",
+          "type": "string"
+        },
+        {
+          "name": "pi__first_activity__pc",
+          "type": "datetime"
+        },
+        {
+          "name": "SDO_Partner_Geographic_Coverage__c",
+          "type": "multipicklist"
+        },
+        {
+          "name": "SDO_MAPS_Dataset_Split__c",
+          "type": "double"
+        },
+        {
+          "name": "Fax",
+          "type": "phone"
+        },
+        {
+          "name": "ShippingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "SDO_YTD_Revenue_Generated__c",
+          "type": "currency"
+        },
+        {
+          "name": "pi__utm_term__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonDoNotCall",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_MAPS_Value_Tier__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonPronouns",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonOtherCountry",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Contract_Signed__c",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Maps_District__c",
+          "type": "string"
+        },
+        {
+          "name": "Value_Closed_Won_Opportunties__c",
+          "type": "currency"
+        },
+        {
+          "name": "pi__utm_medium__pc",
+          "type": "string"
+        },
+        {
+          "name": "AccountSource",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Sales_Num_Closed_Lost_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "CreditLimit__c",
+          "type": "currency"
+        },
+        {
+          "name": "Number_Closed_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "PersonMailingState",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Access__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonOtherStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "Number_Leads_Total__c",
+          "type": "double"
+        },
+        {
+          "name": "pi__utm_campaign__pc",
+          "type": "string"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Plan__pc",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_SFS_Work_Type_for_Quote_Creation__c",
+          "type": "reference"
+        },
+        {
+          "name": "PersonAssistantPhone",
+          "type": "phone"
+        },
+        {
+          "name": "pi__Needs_Score_Synced__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_MAPS_Days_Since_Last_Visit__pc",
+          "type": "double"
+        },
+        {
+          "name": "ShippingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "PersonMailingLongitude",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SFS_Default_Field_Entitlement__c",
+          "type": "reference"
+        },
+        {
+          "name": "PersonGender",
+          "type": "picklist"
+        },
+        {
+          "name": "Tier__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SFS_ShippingGeo__Latitude__s",
+          "type": "double"
+        },
+        {
+          "name": "Site",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "textarea"
+        },
+        {
+          "name": "SDO_MAPS_Tier__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Service_SMS_Message__pc",
+          "type": "textarea"
+        },
+        {
+          "name": "Salutation",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonEmailBouncedDate",
+          "type": "datetime"
+        },
+        {
+          "name": "SDO_MAPS_Dataset_Split__pc",
+          "type": "double"
+        },
+        {
+          "name": "BillingLongitude",
+          "type": "double"
+        },
+        {
+          "name": "SourceSystemIdentifier",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Partnership_Status__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_MAPS_Tag__c",
+          "type": "string"
+        },
+        {
+          "name": "Notes__pc",
+          "type": "textarea"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Start_Date__pc",
+          "type": "date"
+        },
+        {
+          "name": "pi__utm_source__pc",
+          "type": "string"
+        },
+        {
+          "name": "pi__pardot_hard_bounced__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "PersonIndividualId",
+          "type": "reference"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Status__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "PersonOtherLongitude",
+          "type": "double"
+        },
+        {
+          "name": "Type",
+          "type": "picklist"
+        },
+        {
+          "name": "BillingCountry",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Cust360_Metric2__pc",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Maps_TAM__c",
+          "type": "double"
+        },
+        {
+          "name": "ShippingLongitude",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SPM_Upside_Potential__c",
+          "type": "double"
+        },
+        {
+          "name": "PersonOtherLatitude",
+          "type": "double"
+        },
+        {
+          "name": "SDO_Sales_Value_Closed_Won_Opportunties__c",
+          "type": "currency"
+        },
+        {
+          "name": "pi__last_activity__pc",
+          "type": "datetime"
+        },
+        {
+          "name": "SDO_Sales_Num_Closed_Won_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "IsExcludedFromRealign",
+          "type": "boolean"
+        },
+        {
+          "name": "PersonHasOptedOutOfFax",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Partner_Type__c",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__conversion_date__pc",
+          "type": "datetime"
+        },
+        {
+          "name": "BillingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SPM_Billing_Country_Code__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Number_Leads_Converted__c",
+          "type": "double"
+        },
+        {
+          "name": "BillingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "SDO_MAPS_Tag_Contact__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonMailingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "SDO_Value__c",
+          "type": "double"
+        },
+        {
+          "name": "ShippingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Sales_Account_Plan_Details__c",
+          "type": "textarea"
+        },
+        {
+          "name": "SDO_Sales_Current_Year_Revenue_Goal__c",
+          "type": "currency"
+        },
+        {
+          "name": "SDO_PA_Inclusive_Pronouns__pc",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SPM_Open_Opportunity_Value__c",
+          "type": "double"
+        },
+        {
+          "name": "Number_Closed_Lost_Opportunities__c",
+          "type": "double"
+        },
+        {
+          "name": "pi__conversion_object_type__pc",
+          "type": "string"
+        },
+        {
+          "name": "SicDesc",
+          "type": "string"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Plan__c",
+          "type": "reference"
+        },
+        {
+          "name": "PersonOtherPhone",
+          "type": "phone"
+        },
+        {
+          "name": "PersonEmail",
+          "type": "email"
+        },
+        {
+          "name": "SDO_Sales_Number_Leads_Total__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_Value_Open_Opportunties__c",
+          "type": "currency"
+        },
+        {
+          "name": "Ownership",
+          "type": "picklist"
+        },
+        {
+          "name": "IsActive",
+          "type": "boolean"
+        },
+        {
+          "name": "Maps_Advanced_Route_Visit_Windows__c",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_Operating_Hours__c",
+          "type": "reference"
+        },
+        {
+          "name": "pi__score__pc",
+          "type": "double"
+        },
+        {
+          "name": "Phone",
+          "type": "phone"
+        },
+        {
+          "name": "SDO_Default_Location__c",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_PA_Inclusive_TDD_TTY__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Number_Leads_Active__c",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SFS_ShippingGeo__Longitude__s",
+          "type": "double"
+        },
+        {
+          "name": "PersonMailingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "pi__utm_content__pc",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SFS_Tracker_BotContext__pc",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_MAPS_Service_Tier__c",
+          "type": "string"
+        },
+        {
+          "name": "et4ae5__HasOptedOutOfMobile__pc",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Cust360_Id__pc",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Service_Customer_Satisfaction_Index__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Cust360_CSAT__pc",
+          "type": "double"
+        },
+        {
+          "name": "SDO_Cust360_Contact_Picture_URL__pc",
+          "type": "string"
+        },
+        {
+          "name": "Account_Plan__c",
+          "type": "url"
+        },
+        {
+          "name": "pi__campaign__pc",
+          "type": "string"
+        },
+        {
+          "name": "PersonLeadSource",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Sales_Account_Plan_Filled_in__c",
+          "type": "boolean"
+        },
+        {
+          "name": "Partnership_Status__c",
+          "type": "picklist"
+        },
+        {
+          "name": "EffectiveDate",
+          "type": "datetime"
+        }
+      ],
+      "recordIds": [
+        "001D3000012HL7lIAG"
+      ],
+      "duplicateCheck": [],
+      "numRecords": 1
+    },
+    "contact": {
+      "fields": [
+        {
+          "name": "Id",
+          "type": "id"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__Old_Title__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_MAPS_Days_Since_Last_Visit__c",
+          "type": "double"
+        },
+        {
+          "name": "HasOptedOutOfFax",
+          "type": "boolean"
+        },
+        {
+          "name": "Gender",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Cust360_ChurnRisk__c",
+          "type": "double"
+        },
+        {
+          "name": "pi__first_search_type__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__Needs_Score_Synced__c",
+          "type": "boolean"
+        },
+        {
+          "name": "Department",
+          "type": "string"
+        },
+        {
+          "name": "pi__created_date__c",
+          "type": "datetime"
+        },
+        {
+          "name": "OtherLongitude",
+          "type": "double"
+        },
+        {
+          "name": "ContactSource",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__conversion_object_name__c",
+          "type": "string"
+        },
+        {
+          "name": "OtherCity",
+          "type": "string"
+        },
+        {
+          "name": "OtherGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__comments__c",
+          "type": "textarea"
+        },
+        {
+          "name": "MailingCity",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SFS_Tracker_BotContext__c",
+          "type": "reference"
+        },
+        {
+          "name": "OtherStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "OtherLatitude",
+          "type": "double"
+        },
+        {
+          "name": "Jigsaw",
+          "type": "string"
+        },
+        {
+          "name": "pi__utm_medium__c",
+          "type": "string"
+        },
+        {
+          "name": "OtherPhone",
+          "type": "phone"
+        },
+        {
+          "name": "Description",
+          "type": "textarea"
+        },
+        {
+          "name": "DoNotCall",
+          "type": "boolean"
+        },
+        {
+          "name": "AssistantName",
+          "type": "string"
+        },
+        {
+          "name": "MailingCountry",
+          "type": "string"
+        },
+        {
+          "name": "et4ae5__Mobile_Country_Code__c",
+          "type": "picklist"
+        },
+        {
+          "name": "Salutation",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__last_activity__c",
+          "type": "datetime"
+        },
+        {
+          "name": "MailingState",
+          "type": "string"
+        },
+        {
+          "name": "RecordTypeId",
+          "type": "reference"
+        },
+        {
+          "name": "OtherCountry",
+          "type": "string"
+        },
+        {
+          "name": "pi__conversion_object_type__c",
+          "type": "string"
+        },
+        {
+          "name": "EmailBouncedReason",
+          "type": "string"
+        },
+        {
+          "name": "Notes__c",
+          "type": "textarea"
+        },
+        {
+          "name": "pi__grade__c",
+          "type": "string"
+        },
+        {
+          "name": "FirstName",
+          "type": "string"
+        },
+        {
+          "name": "SDO_SFS_Rider_BotContext__c",
+          "type": "reference"
+        },
+        {
+          "name": "OtherPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Cust360_Metric2__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__score__c",
+          "type": "double"
+        },
+        {
+          "name": "HomePhone",
+          "type": "phone"
+        },
+        {
+          "name": "pi__utm_content__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__first_search_term__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Cust360_Metric1__c",
+          "type": "string"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Status__c",
+          "type": "picklist"
+        },
+        {
+          "name": "AccountId",
+          "type": "reference"
+        },
+        {
+          "name": "Email",
+          "type": "email"
+        },
+        {
+          "name": "BuyerAttributes",
+          "type": "multipicklist"
+        },
+        {
+          "name": "External_ID__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__campaign__c",
+          "type": "string"
+        },
+        {
+          "name": "CanAllowPortalSelfReg",
+          "type": "boolean"
+        },
+        {
+          "name": "pi__first_touch_url__c",
+          "type": "textarea"
+        },
+        {
+          "name": "MobilePhone",
+          "type": "phone"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Budget_Limit__c",
+          "type": "currency"
+        },
+        {
+          "name": "SDO_Cust360_Id__c",
+          "type": "string"
+        },
+        {
+          "name": "CreatedById",
+          "type": "reference"
+        },
+        {
+          "name": "MailingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "SDO_SFS_Rider_Enabled__c",
+          "type": "boolean"
+        },
+        {
+          "name": "pi__utm_campaign__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__utm_source__c",
+          "type": "string"
+        },
+        {
+          "name": "IndividualId",
+          "type": "reference"
+        },
+        {
+          "name": "HasOptedOutOfEmail",
+          "type": "boolean"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Role_Function__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Approver__c",
+          "type": "reference"
+        },
+        {
+          "name": "GenderIdentity",
+          "type": "picklist"
+        },
+        {
+          "name": "Birthdate",
+          "type": "date"
+        },
+        {
+          "name": "CurrencyIsoCode",
+          "type": "picklist"
+        },
+        {
+          "name": "DepartmentGroup",
+          "type": "picklist"
+        },
+        {
+          "name": "EDY_ORGCUSTOM__DB__c",
+          "type": "boolean"
+        },
+        {
+          "name": "pi__first_activity__c",
+          "type": "datetime"
+        },
+        {
+          "name": "MaritalStatus",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_MAPS_Tag_Contact__c",
+          "type": "string"
+        },
+        {
+          "name": "LeadSource",
+          "type": "picklist"
+        },
+        {
+          "name": "TitleType",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Certification_Level_c__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_Cust360_CSAT__c",
+          "type": "double"
+        },
+        {
+          "name": "LastName",
+          "type": "string"
+        },
+        {
+          "name": "Pronouns",
+          "type": "picklist"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Plan__c",
+          "type": "reference"
+        },
+        {
+          "name": "MailingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "SDO_SCOM_OOA_Access__c",
+          "type": "picklist"
+        },
+        {
+          "name": "AssistantPhone",
+          "type": "phone"
+        },
+        {
+          "name": "EmailBouncedDate",
+          "type": "datetime"
+        },
+        {
+          "name": "SDO_PA_Inclusive_TDD_TTY__c",
+          "type": "boolean"
+        },
+        {
+          "name": "SDO_Service_Primary_Messaging_User__c",
+          "type": "reference"
+        },
+        {
+          "name": "pi__notes__c",
+          "type": "textarea"
+        },
+        {
+          "name": "OtherState",
+          "type": "string"
+        },
+        {
+          "name": "et4ae5__HasOptedOutOfMobile__c",
+          "type": "boolean"
+        },
+        {
+          "name": "MailingLongitude",
+          "type": "double"
+        },
+        {
+          "name": "Phone",
+          "type": "phone"
+        },
+        {
+          "name": "MailingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "SDO_PA_Year_of_Birth__c",
+          "type": "picklist"
+        },
+        {
+          "name": "MailingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "SequenceInMultipleBirth",
+          "type": "integer"
+        },
+        {
+          "name": "pi__url__c",
+          "type": "url"
+        },
+        {
+          "name": "SDO_Service_SMS_Message__c",
+          "type": "textarea"
+        },
+        {
+          "name": "DeceasedDate",
+          "type": "datetime"
+        },
+        {
+          "name": "Title",
+          "type": "string"
+        },
+        {
+          "name": "SDO_PA_Inclusive_Preferred_Name__c",
+          "type": "string"
+        },
+        {
+          "name": "pi__Pardot_Last_Scored_At__c",
+          "type": "datetime"
+        },
+        {
+          "name": "pi__utm_term__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_Cust360_Contact_Picture_URL__c",
+          "type": "string"
+        },
+        {
+          "name": "SDO_MAPS_Value_Tier__c",
+          "type": "string"
+        },
+        {
+          "name": "Ptnr_Onbd_Fmwk__Onboarding_Start_Date__c",
+          "type": "date"
+        },
+        {
+          "name": "SDO_Service_Month_of_Birth__c",
+          "type": "picklist"
+        },
+        {
+          "name": "pi__conversion_date__c",
+          "type": "datetime"
+        },
+        {
+          "name": "ReportsToId",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_PA_Preferred_Contact_Channel__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_PA_Inclusive_Pronouns__c",
+          "type": "picklist"
+        },
+        {
+          "name": "SDO_SFS_Rider_ServiceTerritory__c",
+          "type": "reference"
+        },
+        {
+          "name": "SDO_MAPS_Dataset_Split__c",
+          "type": "double"
+        },
+        {
+          "name": "pi__pardot_hard_bounced__c",
+          "type": "boolean"
+        },
+        {
+          "name": "Fax",
+          "type": "phone"
+        },
+        {
+          "name": "LastModifiedById",
+          "type": "reference"
+        }
+      ],
+      "recordIds": [
+        "003D300001cB11xIAC"
+      ],
+      "duplicateCheck": [],
+      "numRecords": 1
+    },
+    "recordtype": {
+      "fields": [
+        {
+          "name": "Id",
+          "type": "id"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "BusinessProcessId",
+          "type": "reference"
+        },
+        {
+          "name": "DeveloperName",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        }
+      ],
+      "recordIds": [
+        "012Hs000001xUv2IAE",
+        "012Hs000001xUv5IAE"
+      ],
+      "duplicateCheck": [],
+      "numRecords": 2
+    }
+  }
+}

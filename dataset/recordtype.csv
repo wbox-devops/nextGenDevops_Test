@@ -1,0 +1,3 @@
+Id,BusinessProcessId,Description,DeveloperName,Name
+012Hs000001xUv2IAE,,For all contacts.,SDO_Contact,Contact
+012Hs000001xUv5IAE,,Primary Account record type used for most account records.,SDO_Account_Simple,Account
