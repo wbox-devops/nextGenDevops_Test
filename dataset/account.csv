@@ -1,0 +1,6 @@
+Id,AccountNumber,AccountSource,Active__c,AnnualRevenue,BillingCity,BillingCountry,BillingGeocodeAccuracy,BillingLatitude,BillingLongitude,BillingPostalCode,BillingState,BillingStreet,CleanStatus,CustomerPriority__c,DandbCompanyId,Description,DunsNumber,Fax,Industry,Jigsaw,NaicsCode,NaicsDesc,Name,NumberOfEmployees,NumberofLocations__c,Ownership,ParentId,Phone,Rating,SLAExpirationDate__c,SLASerialNumber__c,SLA__c,ShippingCity,ShippingCountry,ShippingGeocodeAccuracy,ShippingLatitude,ShippingLongitude,ShippingPostalCode,ShippingState,ShippingStreet,Sic,SicDesc,Site,TickerSymbol,Tradestyle,Type,UpsellOpportunity__c,Website,YearStarted
+001fj00001WXWnlAAH,CD451796,,Yes,139000000,Austin,,,,,,TX,"312 Constitution Place
+Austin, TX 78767
+USA",Pending,Medium,,"Edge, founded in 1998, is a start-up based in Austin, TX. The company designs and manufactures a device to convert music from one digital format to another. Edge sells its product through retailers and its own website.",,(512) 757-9000,Electronics,,,,Edge Communications,1000,2,Public,,(512) 757-6000,Hot,2025-08-16,2657,Silver,,,,,,,,"312 Constitution Place
+Austin, TX 78767
+USA",6576,,,EDGE,,Customer - Direct,Maybe,http://edgecomm.com,
