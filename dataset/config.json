@@ -1,0 +1,213 @@
+{
+  "objectsList": {
+    "account": {
+      "fields": [
+        {
+          "name": "Id",
+          "type": "id"
+        },
+        {
+          "name": "ShippingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "BillingCity",
+          "type": "string"
+        },
+        {
+          "name": "SLA__c",
+          "type": "picklist"
+        },
+        {
+          "name": "NaicsCode",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Industry",
+          "type": "picklist"
+        },
+        {
+          "name": "TickerSymbol",
+          "type": "string"
+        },
+        {
+          "name": "BillingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "AccountSource",
+          "type": "picklist"
+        },
+        {
+          "name": "BillingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "DandbCompanyId",
+          "type": "reference"
+        },
+        {
+          "name": "ShippingGeocodeAccuracy",
+          "type": "picklist"
+        },
+        {
+          "name": "DunsNumber",
+          "type": "string"
+        },
+        {
+          "name": "Sic",
+          "type": "string"
+        },
+        {
+          "name": "ShippingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "CleanStatus",
+          "type": "picklist"
+        },
+        {
+          "name": "ShippingPostalCode",
+          "type": "string"
+        },
+        {
+          "name": "YearStarted",
+          "type": "string"
+        },
+        {
+          "name": "CustomerPriority__c",
+          "type": "picklist"
+        },
+        {
+          "name": "ShippingState",
+          "type": "string"
+        },
+        {
+          "name": "SicDesc",
+          "type": "string"
+        },
+        {
+          "name": "BillingState",
+          "type": "string"
+        },
+        {
+          "name": "AnnualRevenue",
+          "type": "currency"
+        },
+        {
+          "name": "Jigsaw",
+          "type": "string"
+        },
+        {
+          "name": "Active__c",
+          "type": "picklist"
+        },
+        {
+          "name": "Site",
+          "type": "string"
+        },
+        {
+          "name": "Ownership",
+          "type": "picklist"
+        },
+        {
+          "name": "Description",
+          "type": "textarea"
+        },
+        {
+          "name": "Rating",
+          "type": "picklist"
+        },
+        {
+          "name": "Website",
+          "type": "url"
+        },
+        {
+          "name": "BillingLatitude",
+          "type": "double"
+        },
+        {
+          "name": "NumberOfEmployees",
+          "type": "integer"
+        },
+        {
+          "name": "SLASerialNumber__c",
+          "type": "string"
+        },
+        {
+          "name": "BillingLongitude",
+          "type": "double"
+        },
+        {
+          "name": "Tradestyle",
+          "type": "string"
+        },
+        {
+          "name": "Phone",
+          "type": "phone"
+        },
+        {
+          "name": "NumberofLocations__c",
+          "type": "double"
+        },
+        {
+          "name": "UpsellOpportunity__c",
+          "type": "picklist"
+        },
+        {
+          "name": "ShippingCountry",
+          "type": "string"
+        },
+        {
+          "name": "ShippingCity",
+          "type": "string"
+        },
+        {
+          "name": "ParentId",
+          "type": "reference"
+        },
+        {
+          "name": "NaicsDesc",
+          "type": "string"
+        },
+        {
+          "name": "AccountNumber",
+          "type": "string"
+        },
+        {
+          "name": "Type",
+          "type": "picklist"
+        },
+        {
+          "name": "BillingCountry",
+          "type": "string"
+        },
+        {
+          "name": "SLAExpirationDate__c",
+          "type": "date"
+        },
+        {
+          "name": "BillingStreet",
+          "type": "textarea"
+        },
+        {
+          "name": "Fax",
+          "type": "phone"
+        },
+        {
+          "name": "ShippingLongitude",
+          "type": "double"
+        }
+      ],
+      "recordIds": [
+        "001fj00001WXWnlAAH"
+      ],
+      "duplicateCheck": [],
+      "numRecords": 1
+    }
+  }
+}
