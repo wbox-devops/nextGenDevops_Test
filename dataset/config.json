@@ -1,0 +1,41 @@
+{
+  "objectsList": {
+    "visita__c": {
+      "fields": [
+        {
+          "name": "Id",
+          "type": "id"
+        },
+        {
+          "name": "CurrencyIsoCode",
+          "type": "picklist"
+        },
+        {
+          "name": "Fecha_de_la_visita__c",
+          "type": "date"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Comentarios__c",
+          "type": "textarea"
+        },
+        {
+          "name": "CreatedById",
+          "type": "reference"
+        },
+        {
+          "name": "LastModifiedById",
+          "type": "reference"
+        }
+      ],
+      "recordIds": [
+        "a2sD3000000O8O0IAK"
+      ],
+      "duplicateCheck": [],
+      "numRecords": 1
+    }
+  }
+}
